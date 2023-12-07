@@ -15,7 +15,7 @@ function Hero({}: Props) {
               {/** Headquarter */}
               <div className=' h-40 w-40'>    
                   <div className = "flex items-center space-x-4">
-                      <FontAwesomeIcon icon ={faLocationDot} className='text-2xl text-[#02A385]'/>
+                      <FontAwesomeIcon icon ={faLocationDot} className='text-2xl text-primary'/>
                       <h3> Headquarters</h3>
                       
                   </div>
@@ -29,7 +29,7 @@ function Hero({}: Props) {
               </div>
               <div className = " h-40 w-40">
                   <div className="flex items-start justify-start space-x-4 ">
-                      <FontAwesomeIcon icon = {faEnvelope} className='text-2xl text-[#02A385]'/>
+                      <FontAwesomeIcon icon = {faEnvelope} className='text-2xl text-primary'/>
                   <h4>Email</h4>
                   </div>
                   <div className = "mt-6">

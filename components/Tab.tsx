@@ -21,7 +21,7 @@ function Tab({ items }: Props) {
           <ul className="flex flex-wrap -mb-px">
                   { items.map((menu,index) => (
               <li key={menu.id} className="inline-block p-4 rounded-t-lg ">
-                      <button className={`text-[1.2rem] font-bold tracking-tighter w-32 ${activeTab === index ? "text-[#02A385] border-b-2 border-[#02A385]" : ""}`} onClick = {() => handleTabClick(index)}>{ menu.title}</button>
+                      <button className={`text-[1.2rem] font-bold tracking-tighter w-32 ${activeTab === index ? "text-primary border-b-2 border-primary" : ""}`} onClick = {() => handleTabClick(index)}>{ menu.title}</button>
                 
               </li>
                   ))}

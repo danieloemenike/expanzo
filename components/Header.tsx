@@ -14,7 +14,7 @@ function Header({showLogo}: Props) {
 
 	
 	return (
-		<nav className="bg-[#02A385] h-[3.5rem] shadow-md relative  top-0  w-full  text-white">
+		<nav className="bg-primary h-[3.5rem] shadow-md relative  top-0  w-full  text-white">
 			<div className="flex items-center justify-between pl-1 pr-1 md:px-[2rem] md:py-[1rem]  w-full h-full sticky">
 				<div className="h-full w-full flex items-center space-x-6">
 					<FontAwesomeIcon
